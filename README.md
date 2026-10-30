@@ -1,5 +1,7 @@
 # Nutrient Document Splitting
 
+# DISCLAIMER: This PoC is good for simple usecases or if you don't want to use AI. However, we have now a built in feature doing that: https://dashboard.nutrient.io/data-extraction-api/studio/split
+
 A Nutrient.io demo that splits one PDF made of several documents, such as a printed tax return package, into one PDF per document with GdPicture.NET.
 
 ![Input pages coloured by the output document they were assigned to](docs/screenshots/01-split-result.png)
